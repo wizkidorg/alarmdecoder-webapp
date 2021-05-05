@@ -53,3 +53,4 @@ chump>=1.5.1
 twilio>=6.8.2
 gntp>=1.0.2
 miniupnpc>=1.9
+email-validator>=1.0
