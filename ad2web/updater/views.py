@@ -9,7 +9,7 @@ from flask import Blueprint, render_template, abort, g, request, flash, Response
 from flask import current_app as APP
 from flask_login import login_required, current_user
 
-from werkzeug import secure_filename
+from werkzeug.security  import secure_filename
 
 from ..extensions import db
 from ..decorators import admin_required
